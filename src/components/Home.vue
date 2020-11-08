@@ -55,6 +55,10 @@
     </el-container>
   </el-container>
 </template>
+
+
+
+
 <script>
   import {getRequest} from '../utils/api'
   export default{
@@ -101,7 +105,7 @@
   }
 
   .el-header {
-    background-color: #20a0ff;
+    background-color: #ec5050;
     color: #333;
     text-align: center;
     display: flex;
@@ -121,7 +125,7 @@
 
   .home_title {
     color: #fff;
-    font-size: 22px;
+    font-size: 30px;
     display: inline;
   }
 
@@ -132,6 +136,6 @@
 
   .home_userinfoContainer {
     display: inline;
-    margin-right: 20px;
+    margin-right: 30px;
   }
 </style>

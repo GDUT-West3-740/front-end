@@ -1,5 +1,5 @@
 <template>
-  <div :style="backgroundDiv">
+  <div class="login-back" :style="backgroundDiv">
     <el-form :rules="rules" class="login-container" label-position="left"
              label-width="0px" v-loading="loading">
       <h3 class="login_title">博客登录</h3>
@@ -10,7 +10,7 @@
         <el-input type="password" v-model="loginForm.password" auto-complete="off" placeholder="密码"></el-input>
       </el-form-item>
       <el-form-item style="width: 100%">
-        <el-button type="primary" @click.native.prevent="submitClick" style="width: 100%">登录</el-button>
+        <el-button type="success" @click.native.prevent="submitClick" style="width: 100%">登录</el-button>
       </el-form-item>
     </el-form>
     </div>
@@ -40,7 +40,7 @@
 
           backgroundRepeat:'no-repeat',
 
-          backgroundSize:'100% 100%',
+          backgroundSize:'100% auto',
           hide:`100%`
         }
 
@@ -79,10 +79,16 @@
   }
 </script>
 <style>
+.login-back {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid transparent;
+}
   .login-container {
     border-radius: 15px;
     background-clip: padding-box;
-    margin: 180px auto;
+    margin: 0px auto;
+    margin-top: 100px;
     width: 350px;
     padding: 35px 35px 15px 35px;
     background: #fff;
@@ -95,5 +101,5 @@
     text-align: center;
     color: #505458;
   }
-  
+
 </style>
