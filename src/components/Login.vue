@@ -10,7 +10,7 @@
         <el-input type="password" v-model="loginForm.password" auto-complete="off" placeholder="密码"></el-input>
       </el-form-item>
       <el-form-item style="width: 100%">
-        <el-button type="success" @click.native.prevent="submitClick" style="width: 100%">登录</el-button>
+        <el-button type="info" @click.native.prevent="submitClick" icon="el-icon-check"  >登录</el-button>
       </el-form-item>
     </el-form>
     </div>

@@ -94,12 +94,12 @@
   }
 
   .header {
-    background-color: #20a0ff;
+    background-color: #acacac;
     height: 60px;
   }
 
   .title {
-    color: #fff;
+    color: #151313;
     font-size: 22px;
     display: flex;
     align-items: center;
@@ -108,7 +108,7 @@
   }
 
   .userinfo {
-    color: #fff;
+    color: #0e0e0e;
     cursor: pointer;
   }
 

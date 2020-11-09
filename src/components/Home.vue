@@ -1,7 +1,7 @@
 <template>
   <el-container class="home_container">
     <el-header>
-      <div class="home_title">博客管理平台</div>
+      <div class="home_title">BING BLOG</div>
       <div class="home_userinfoContainer">
         <el-dropdown @command="handleCommand">
   <span class="el-dropdown-link home_userinfo">
@@ -53,6 +53,20 @@
         </el-main>
       </el-container>
     </el-container>
+    <el-footer>
+      <el-row>
+        <el-col :span="6"><div class="grid-content bg-purple">Yuquan You</div></el-col>
+        <el-col :span="6"><div class="grid-content bg-purple-light">Haohui Zhang</div></el-col>
+        <el-col :span="6"><div class="grid-content bg-purple">Zunye Zou</div></el-col>
+        <el-col :span="6"><div class="grid-content bg-purple-light">Shu Zhang</div></el-col>
+      </el-row>
+      <el-row>
+        <el-col :span="6"><div class="grid-content bg-purple">3118005345</div></el-col>
+        <el-col :span="6"><div class="grid-content bg-purple-light">3118005347</div></el-col>
+        <el-col :span="6"><div class="grid-content bg-purple">3118005350</div></el-col>
+        <el-col :span="6"><div class="grid-content bg-purple-light">3118005348</div></el-col>
+      </el-row>
+    </el-footer>
   </el-container>
 </template>
 
@@ -105,7 +119,7 @@
   }
 
   .el-header {
-    background-color: #ec5050;
+    background-color: #ececec;
     color: #333;
     text-align: center;
     display: flex;
@@ -124,18 +138,32 @@
   }
 
   .home_title {
-    color: #fff;
+    color: #110b0b;
     font-size: 30px;
     display: inline;
+
   }
 
   .home_userinfo {
-    color: #fff;
+    color: #111111;
     cursor: pointer;
   }
 
   .home_userinfoContainer {
     display: inline;
     margin-right: 30px;
+  }
+
+ .el-breadcrumb__inner is-link:active{
+   color: #acacac;
+ }
+
+  breadcrumb__inner.is-link:hover {
+    color: #acacac;
+    cursor: pointer;
+  }
+  .el-menu-item.is-active:hover {
+    color: #acacac;
+    cursor: pointer;
   }
 </style>
