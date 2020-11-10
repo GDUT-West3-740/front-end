@@ -224,6 +224,20 @@
     padding-top: 10px;
   }
 
+  .el-button:focus, .el-button:hover {
+    color: #5f4f4f;
+    border-color: #c6e2ff;
+    background-color: #ecf5ff;
+  }
+  .el-loading-spinner .path {
+    -webkit-animation: loading-dash 1.5s ease-in-out infinite;
+    animation: loading-dash 1.5s ease-in-out infinite;
+    stroke-dasharray: 90,150;
+    stroke-dashoffset: 0;
+    stroke-width: 2;
+    stroke: #272e3b;
+    stroke-linecap: round;
+  }
 
   .el-button--primary {
     color: #FFF;

@@ -43,7 +43,7 @@
       <el-container>
         <el-main>
           <el-breadcrumb separator-class="el-icon-arrow-right">
-            <el-breadcrumb-item :to="{ path: '/home' }">首页</el-breadcrumb-item>
+            <el-breadcrumb-item class="link" :to="{ path: '/home' }">首页</el-breadcrumb-item>
             <el-breadcrumb-item v-text="this.$router.currentRoute.name"></el-breadcrumb-item>
           </el-breadcrumb>
           <keep-alive>
@@ -144,6 +144,10 @@
 
   }
 
+  .link:hover{
+    color: #acacac !important;
+  }
+
   .home_userinfo {
     color: #111111;
     cursor: pointer;
@@ -157,13 +161,27 @@
  .el-breadcrumb__inner is-link:active{
    color: #acacac;
  }
-
+  .el-breadcrumb__inner a,.el-breadcrumb__inner.is-link:hover{
+    color: #acacac;
+    cursor: pointer;
+  }
   breadcrumb__inner.is-link:hover {
     color: #acacac;
     cursor: pointer;
   }
+
+ .is-link:hover{
+    color: #acacac;
+  }
+
+
+
   .el-menu-item.is-active:hover {
     color: #acacac;
     cursor: pointer;
+  }
+
+  .el-menu-item.is-active {
+    color: #666565;
   }
 </style>
