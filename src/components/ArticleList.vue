@@ -94,4 +94,10 @@
   .el-menu-item.is-active {
     color: #b8b8b8;
   }
+
+
+  .element.style {
+    color: rgb(6, 80, 156);
+    cursor: pointer;
+  }
 </style>

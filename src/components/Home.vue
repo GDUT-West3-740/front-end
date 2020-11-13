@@ -175,7 +175,10 @@
   }
 
 
-
+  .element.style {
+    color: rgb(6, 80, 156);
+    cursor: pointer;
+  }
   .el-menu-item.is-active:hover {
     color: #acacac;
     cursor: pointer;

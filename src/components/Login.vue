@@ -95,6 +95,10 @@
     border: 1px solid #eaeaea;
     box-shadow: 0 0 25px #cac6c6;
   }
+.element.style {
+  color: rgb(6, 80, 156);
+  cursor: pointer;
+}
 
   .login_title {
     margin: 0px auto 40px auto;

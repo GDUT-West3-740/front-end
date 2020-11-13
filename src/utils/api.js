@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-let base = 'http://47.92.139.26:8083';
+let base = '';
 export const postRequest = (url, params) => {
   return axios({
     method: 'post',

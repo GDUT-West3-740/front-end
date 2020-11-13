@@ -106,7 +106,10 @@
     margin-left: 20px;
     height: 60px;
   }
-
+  .element.style {
+    color: rgb(6, 80, 156);
+    cursor: pointer;
+  }
   .userinfo {
     color: #0e0e0e;
     cursor: pointer;

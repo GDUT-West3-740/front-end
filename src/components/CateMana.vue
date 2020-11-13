@@ -244,4 +244,8 @@
     background-color: #787878;
     border-color: #494949;
   }
+  .element.style {
+    color: rgb(6, 80, 156);
+    cursor: pointer;
+  }
 </style>
